@@ -1,4 +1,5 @@
 World JS: History Simulation [![Build Status](https://travis-ci.org/anvoz/world-js.png?branch=master)](https://travis-ci.org/anvoz/world-js)
+[![trophy](https://github-profile-trophy.vercel.app/?username=ehcho0222)](https://github.com/ryo-ma/github-profile-trophy)
 ========
 
 `World JS` is an attempt to show you a brief history of humankind via a simulation game.

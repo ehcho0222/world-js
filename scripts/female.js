@@ -30,7 +30,7 @@ define(function(require) {
 
     Seed.call(female, data);
 
-    female.maxChildAge = 15;
+    female.maxChildAge = 13;
 
     // Total children that she gave birth
     // Need to be set from undefined to 0 right after her first marriage
@@ -46,9 +46,9 @@ define(function(require) {
         { range: [85, 105], from: 0.05, to: 0.9 }
       ],
       childbirth: [
-        { range: [15, 25],  from: 0.1, to: 0.25 },
-        { range: [25, 50],  from: 0.25, to: 0.1 },
-        { range: [50, 70],  from: 0.1, to: 0.001 }
+        { range: [13, 28],  from: 0.1, to: 0.25 },
+        { range: [28, 43],  from: 0.25, to: 0.1 },
+        { range: [43, 63],  from: 0.1, to: 0.001 }
       ]
     };
   };

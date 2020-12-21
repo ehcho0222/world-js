@@ -77,7 +77,7 @@ define(function(require) {
           var year          = world.statistic.year;
           var affectedYear  = world.knowledge.list.fire.affectedYear;
           if (year % 100 == affectedYear % 100 && year > affectedYear) {
-            world.rules.food.resourceIncr -= 0.1;
+            world.rules.food.resourceIncr -= 0.05;
           }
         });
 
@@ -120,7 +120,7 @@ define(function(require) {
           var year          = world.statistic.year;
           var affectedYear  = world.knowledge.list.hula.affectedYear;
           if (year % 100 == affectedYear % 100 && year > affectedYear) {
-            world.rules.food.resourceIncr -= 0.1;
+            world.rules.food.resourceIncr -= 0.05;
           }
         });
       }
@@ -243,7 +243,7 @@ define(function(require) {
         }
       ],
       iq:           { priority: 0.1, gained: 0, required: 50000 },
-      following:    [],
+      following:    ['city'],
       affectedYear: 0,
       onAffected: function(world) {
         var worldRules = world.rules;
@@ -255,6 +255,32 @@ define(function(require) {
       }
     },
 
+	city: {
+      id:           'city',
+      name:         Language.knowledgeCITYName,
+      message:      Language.knowledgeCITYMessage,
+      description:  [
+        {
+          text:     Language.knowledgeSPIRDescription01,
+          code:     ['Population limit 2000', 'Base IQ +2', 'Child -1 food / year']
+        },
+        {
+          text:     Language.knowledgeSPIRDescription02,
+          code:     ['Death rate +5%']
+        }
+      ],
+      iq:           { priority: 0.1, gained: 0, required: 350000 },
+      following:    [],
+      affectedYear: 0,
+      onAffected: function(world) {
+        var worldRules = world.rules;
+
+        worldRules.population.limit = 2000;
+        worldRules.baseIQ           += 2;
+        worldRules.food.child       -= 1;
+        worldRules.chanceIncr.death += 0.05;
+      }
+    },
 
     osea: {
       id:           'osea',

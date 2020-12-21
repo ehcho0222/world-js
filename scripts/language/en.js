@@ -71,7 +71,7 @@ They drive to the extinction of most large species long before the invention of 
 what you've just seen to survive by living in equilibrium with nature or self-producing food.",
 
     knowledgeHUGAName:
-"Hunting and gathering",
+"Small Game Hunting",
     knowledgeHUGAMessage:
 "They are foraging edible plants and animals from the wild.<br>\
 This activity is occupying at least 90 percent of human history.",
@@ -79,7 +79,7 @@ This activity is occupying at least 90 percent of human history.",
 "Live a hand-to-mouth existence by collecting food from the wild.",
 
     knowledgeFIREName:
-"Controlling of fire",
+"Controlling of Fire",
     knowledgeFIREMessage:
 "Controlling of fire is an important step in the evolution of our ancestors.<br>\
 They gain new source of light, warmth and power to start changing their behaviors.",
@@ -91,7 +91,7 @@ They gain new source of light, warmth and power to start changing their behavior
 "Be able to burn down forests for food, which can also start changing the environment.",
 
     knowledgeHULAName:
-"Hunting large animals",
+"Big Game Hunting",
     knowledgeHULAMessage:
 "Lions and sharks evolved to fill the position of top predator over millions of years.<br>\
 But humans ascend to this position almost immediately so they are not well adapted to it.",
@@ -101,7 +101,7 @@ But humans ascend to this position almost immediately so they are not well adapt
 "The extinction of large animals, which is very likely to happen because of their long pregnancy, can completely change the ecological system.",
 
     knowledgeNOMAName:
-"Living a nomadic lifestyle",
+"Nomadic Lifestyle",
     knowledgeNOMAMessage:
 "They are roaming around in a large area to reach new food resources.<br>\
 Nomadic hunting and gathering is the oldest human subsistence method.",
@@ -123,7 +123,7 @@ Cooking provides better diet to support their hunter-gatherer lifestyle.",
 "Kill germs and parasites that infest food.",
 
     knowledgeGOSSName:
-"Gossiping",
+"Villages",
     knowledgeGOSSUnlock:
 "Without gossiping, it is very hard to cooperate effectively with other people.",
     knowledgeGOSSMessage:
@@ -133,7 +133,7 @@ They are now gaining information without spending all day watching other people 
 "Exchange information about what other people are doing and thinking to help them understand each other and start living in larger bands.",
 
     knowledgeSPIRName:
-"Speaking about gods",
+"Spirituality",
     knowledgeSPIRUnlock:
 "The stability of larger band is broken easily, people can not intimately know too many individuals.",
     knowledgeSPIRMessage:
@@ -143,6 +143,14 @@ By believing in common gods, larger numbers of strangers can cooperate successfu
 "Unlike ants that know how to cooperate with large numbers of individuals based on their genetic code, humans don't really know how to create larger corporation effectively without basing it on imaginary stories that exist only in their minds.",
     knowledgeSPIRDescription02:
 "Suffer more from infectious diseases.",
+
+	knowledgeCITYName:
+"First City",
+    knowledgeCITYUnlock:
+"The stability of larger band is broken easily, people can not intimately know too many individuals.",
+    knowledgeCITYMessage:
+"The secret that enables humans to go beyond the threshold of 150 individuals is fictive language.<br>\
+By believing in common gods, larger numbers of strangers can cooperate successfully.",
 
     knowledgeOSEAName:
 "Crossing the open sea",

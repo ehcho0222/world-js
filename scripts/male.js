@@ -40,9 +40,9 @@ define(function(require) {
         { range: [80, 100], from: 0.05, to: 0.9 }
       ],
       marriage: [
-        { range: [15, 30],  from: 0.1,  to: 0.5 },
-        { range: [30, 50],  from: 0.5,  to: 0.1 },
-        { range: [50, 80],  from: 0.1,  to: 0.01 }
+        { range: [15, 25],  from: 0.1,  to: 0.5 },
+        { range: [25, 40],  from: 0.5,  to: 0.1 },
+        { range: [40, 80],  from: 0.1,  to: 0.01 }
       ]
     };
   };
